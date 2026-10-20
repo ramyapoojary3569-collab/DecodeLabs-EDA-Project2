@@ -1,0 +1,81 @@
+DECODELABS PROJECT 2
+EXPLORATORY DATA ANALYSIS (EDA)
+
+1. INTRODUCTION
+
+The purpose of this project is to perform Exploratory Data Analysis (EDA) on an order dataset using Python.
+
+EDA helps us understand data by examining its structure, calculating statistics, identifying missing values, and creating visualizations.
+
+2. OBJECTIVES
+
+The main objectives of this project are:
+
+- To understand the structure of the dataset.
+- To calculate basic statistical summaries.
+- To identify missing values.
+- To examine product and order status distributions.
+- To visualize monthly recorded order totals.
+- To summarize the observations from the analysis.
+
+3. TOOLS USED
+
+The following tools and Python libraries were used:
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- OpenPyXL
+
+4. DATASET OVERVIEW
+
+The dataset contains 1,200 records and 14 columns.
+
+The columns include order IDs, dates, customer IDs, products, quantities, unit prices, payment methods, order statuses, coupon codes, referral sources, and total prices.
+
+The dataset contains 1,200 unique order IDs and 7 unique product categories.
+
+5. DATA CLEANING AND INITIAL CHECKS
+
+The dataset was loaded into Python using Pandas.
+
+The initial analysis examined the dataset dimensions, column names, missing values, and descriptive statistics.
+
+The initial results showed 309 missing values in the CouponCode column.
+
+These missing values should be investigated before deciding how they should be handled.
+
+6. PRODUCT ANALYSIS
+
+A bar chart was created to show the number of records associated with each product.
+
+This chart helps compare product frequency within the dataset.
+
+The chart is saved as product_orders.png.
+
+7. ORDER STATUS ANALYSIS
+
+A bar chart was created to display the number of records in each order status category.
+
+This chart helps compare the distribution of order statuses.
+
+The chart is saved as order_status.png.
+
+8. MONTHLY TOTAL ANALYSIS
+
+A line chart was created to display monthly sums of TotalPrice.
+
+This visualization helps examine how recorded order totals change over time.
+
+The chart is saved as monthly_sales.png.
+
+Cancelled and returned orders may be included in these totals, so the results should not automatically be interpreted as completed sales.
+
+9. CONCLUSION
+
+This project demonstrates how Python can be used to explore an order dataset, calculate descriptive statistics, check missing values, and create visualizations.
+
+The charts provide different views of product frequency, order status distribution, and monthly recorded order totals.
+
+Further analysis could investigate payment methods, coupon usage, customer ordering patterns, and relationships between variables.
